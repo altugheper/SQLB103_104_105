@@ -7,8 +7,8 @@ create database heper;
 -- CREATE - TABLO OLUSTURMA
 CREATE TABLE ogrenciler1
 (
-ogrenci_no char(7),
-isim varchar(20),
+ogrenci_no char(7),-- Uzunlugunu bildigimiz stringler icin CHAR kullanilir
+isim varchar(20),-- Uzunlugunu bilmedigimiz stringler icin VARCHAR kullanilir
 soyisim varchar(25),
 not_ort real,--Ondalikli sayilar icin kullanilir(Double gibi)
 kayit_tarih date
